@@ -1,5 +1,9 @@
 package com.example.demo.funcional;
 
-public interface IPersonaUnaryOperador {
+@FunctionalInterface
+public interface IPersonaUnaryOperador<T> extends IPersonaFunction<T, T> {
+	
+	
+	
 
 }
